@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  top: 16px;;
+  top: 16px;
   left: 23%;
 }
 .header ul li {
@@ -36,66 +36,96 @@
 }
 .header__lng {
   text-transform: uppercase;
-
 }
-.header__lng_active{
-    color: #b7b7b7 !important;
+.header__lng_active {
+  color: #b7b7b7 !important;
 }
-.header__lng span{
-    color: white;
-    margin-right: 8px;
+.header__lng span {
+  color: white;
+  margin-right: 8px;
 }
-.intro{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),url(./img/hero-sect-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 200px 0 400px 0;
+.intro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url(./img/hero-sect-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0 400px 0;
 }
-.intro h1{
-    font-weight: 700;
-    font-size: 48px;
-    color: white;
-    padding-top: 200px;
-    width: 70%;
-   
+.intro h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+  padding-top: 200px;
+  width: 70%;
 }
-.intro h2{
-    font-weight: 500;
-    font-size: 40px;
-    color: white;
-    padding-top: 50px;
-    width: 50%;
-    margin-bottom: 53px;
-
+.intro h2 {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  padding-top: 50px;
+  width: 50%;
+  margin-bottom: 53px;
 }
-.intro button{
-    background: #db2512;
-    padding: 11px 48px;
-    font-size: 18px;
-    color: white;
-    font-weight: 500;
-
+.intro button {
+  background: #db2512;
+  padding: 11px 48px;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
 }
-.intro__blocks{
+.intro__blocks {
   display: flex;
-  gap:21px;
+  gap: 21px;
   position: absolute;
   bottom: -29%;
-  left: 16%;
+  left: 10%;
 }
-.intro__block{
+.intro__block {
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
   padding: 39px 48px 39px 39px;
+  min-width: 386px;
+  position: relative;
 }
-.intro__block p{
+.intro__block p {
   font-weight: 700;
   font-size: 18px;
   margin: 21px 0 15px 0;
 }
-.intro__block span{
+.intro__block span {
   font-weight: 400;
   font-size: 18px;
   color: #b7b7b7;
+}
+.intro__block::before {
+  content: "";
+  background-image: url(./img/phone.svg);
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10%;
+  left: 9%;
+}
+.intro__block-calendar::before {
+  content: "";
+  background-image: url(./img/calendar.svg);
+}
+.intro__block-location::before {
+  content: "";
+  background-image: url(./img/location.svg);
+}
+.services {
+  text-transform: uppercase;
+  margin: 99px 0 99px 0;
+}
+.services h2{
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.services a {
+  font-weight: 400;
+  font-size: 15px;
 }
