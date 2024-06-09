@@ -82,8 +82,8 @@
   display: flex;
   gap: 20px;
   position: absolute;
-  bottom: -29%;
-  left: 12%;
+  bottom: -5%;
+  left: 22%;
 }
 .intro__block {
   background: #ffffff;
@@ -122,12 +122,12 @@
 }
 .services {
   text-transform: uppercase;
-  margin: 99px auto;
+  margin: 125px auto;
 }
 .services h2 {
   font-weight: 700;
   font-size: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .services a {
   font-weight: 400;
@@ -136,7 +136,7 @@
 .services__blocks {
   display: flex;
   gap: 20px;
-  margin-top: 70px;
+  margin-top: 30px;
   justify-content: center;
 }
 .services__blocks img {
@@ -253,3 +253,126 @@
   color: #b7b7b7;
   margin-top: 22px;
 }
+/*Работа с формой контакты*/
+.contacts {
+  padding: 100px 0;
+  background-color: #171616;
+}
+/*Стилизация кнопки*/
+.contacts button {
+  background: #db2512;
+  padding: 11px 48px;
+  font-size: 18px;
+  color: white;
+}
+
+.contacts__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+}
+
+.contacts .block__title {
+  margin-bottom: 40px;
+}
+/*Работа с формой*/
+.contacts__form {
+  max-width: 440px;
+}
+
+.form__row {
+  margin: 0 -20px;
+  display: flex;
+}
+
+.form__group {
+  margin-bottom: 30px;
+  padding: 0 20px;
+  flex: 1;
+  position: relative;
+}
+/*Стилизация инпутов*/
+.input {
+  width: 100%;
+  padding: 9px 0;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
+.input:focus + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.input:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.label {
+  letter-spacing: 0.15em;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.textarea {
+  min-height: 130px;
+  width: 100%;
+  padding: 9px 0;
+  resize: vertical;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+
+.textarea:focus + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.textarea:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+}
+
+.footer__wrapper {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.copyright {
+  letter-spacing: 0.15em;
+}
+
+.footer__soc {
+  display: flex;
+}
+
+.footer__soc-link {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.footer__soc-link:last-child {
+  margin-right: 0;
+}
+
+.footer__soc-link img {
+  height: 25px;
+}
+
