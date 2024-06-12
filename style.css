@@ -81,11 +81,10 @@
 .intro__blocks {
   display: flex;
   gap: 20px;
-  position:absolute;
-  pointer-events: none;
+  position: absolute;
   bottom: -30%;
   left: 15%;
-box-sizing: border-box;
+ 
 }
 .intro__block {
   background: #ffffff;
@@ -377,4 +376,3 @@ box-sizing: border-box;
 .footer__soc-link img {
   height: 25px;
 }
-
