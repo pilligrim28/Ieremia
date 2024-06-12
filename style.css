@@ -82,6 +82,7 @@
   display: flex;
   gap: 20px;
   position:absolute;
+  pointer-events: none;
   bottom: -30%;
   left: 15%;
 }
