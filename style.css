@@ -81,8 +81,8 @@
 .intro__blocks {
   display: flex;
   gap: 20px;
-  position: absolute;
-  bottom: -5%;
+  position:absolute;
+  bottom: -10%;
   left: 22%;
 }
 .intro__block {
