@@ -85,6 +85,7 @@
   pointer-events: none;
   bottom: -30%;
   left: 15%;
+box-sizing: border-box;
 }
 .intro__block {
   background: #ffffff;
